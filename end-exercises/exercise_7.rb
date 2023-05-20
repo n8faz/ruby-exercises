@@ -1,0 +1,1 @@
+#The major difference between an array and has is an array is ordered and a hash assigns a value to a key 
