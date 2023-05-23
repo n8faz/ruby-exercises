@@ -38,3 +38,14 @@ contact_data = [["joe@email.com", "123 Main st.", "555-123-4567"],["sally@email.
 
 contacts = {"Joe Smith" => {}, "Sally Johnson" => {}}
 
+#def copy_data(contact_data, contacts)
+  
+
+joe_array = contact_data[0]
+joe_hash = {email: joe_array[0], address: joe_array[1], phone: joe_array[2]}
+sally_array = contact_data[1]
+sally_hash = {email: sally_array[0], address: sally_array[1], phone: sally_array[2]}
+contacts["Joe Smith"] = joe_hash
+contacts["Sally Johnson"] = sally_hash
+
+p contacts
